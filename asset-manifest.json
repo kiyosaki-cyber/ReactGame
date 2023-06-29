@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactGame/static/css/main.073c9b0a.css",
-    "main.js": "/ReactGame/static/js/main.f8dda203.js",
+    "main.css": "/ReactGame/static/css/main.5e89d299.css",
+    "main.js": "/ReactGame/static/js/main.1110947a.js",
     "static/js/496.14bf7e15.chunk.js": "/ReactGame/static/js/496.14bf7e15.chunk.js",
-    "static/media/logo.svg": "/ReactGame/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/klee-four-leaf-clover-lucky-clover-tic-tac-toe.jpg": "/ReactGame/static/media/klee-four-leaf-clover-lucky-clover-tic-tac-toe.ac8a8ad39414a38999f9.jpg",
     "index.html": "/ReactGame/index.html",
-    "main.073c9b0a.css.map": "/ReactGame/static/css/main.073c9b0a.css.map",
-    "main.f8dda203.js.map": "/ReactGame/static/js/main.f8dda203.js.map",
+    "main.5e89d299.css.map": "/ReactGame/static/css/main.5e89d299.css.map",
+    "main.1110947a.js.map": "/ReactGame/static/js/main.1110947a.js.map",
     "496.14bf7e15.chunk.js.map": "/ReactGame/static/js/496.14bf7e15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f8dda203.js"
+    "static/css/main.5e89d299.css",
+    "static/js/main.1110947a.js"
   ]
 }
