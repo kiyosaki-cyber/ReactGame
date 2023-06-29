@@ -1,5 +1,6 @@
 import React from "react";
 import Square from "./components/square"
+import Game from "./components/game"
 import './App.css';
 export default function App(){    
     const[nextTurn, setNextTurn]=React.useState(true)
@@ -23,18 +24,22 @@ export default function App(){
    }
    const winning =winningCombo(cells)
     let status
-    if(winning){
+    if(winning && winning !=="DRAW"){
       status ="WINNER:" +"   "+"PLAYER"+"   " + winning
+    }
+    else if(winning && winning ==="DRAW"){
+      status ="OH IT'S A DRAW"
+
     }
     else{
       status="IT'S PLAYER:" +"   "+(nextTurn? "X": "O")+ "  "+"'S"+"    "+"TURN"
     }
     return (
-        <main className="grid">  
+        <main >  
           <div className="statusBar">
               <>{status}</>
           </div>
-        
+        <div className="grid">
           <div className="grid--row">
             <Square symbol={cells[0]} 
             onCellClick={()=>handleClick(0)} />
@@ -61,6 +66,8 @@ export default function App(){
             <Square symbol={cells[8]} 
             onCellClick={()=>handleClick(8)} />
           </div>
+          </div>
+          <Game/>
         </main> 
     )
   
@@ -80,12 +87,14 @@ export default function App(){
       if(cells[a] && cells[a]===cells[b] && cells[a]===cells[c]){
         return cells[a]
       }
+      else if(!cells.includes(null)){
+        return "DRAW"
+      }
+      
     }
     return null
    }
-  
-  
-  
+ 
   
 }
 
