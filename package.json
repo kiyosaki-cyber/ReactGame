@@ -1,12 +1,13 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage":"https://kiyosaki-cyber.github.io/ReactGame",
+  "homepage": "https://kiyosaki-cyber.github.io/ReactGame",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "web-vitals": "^3.3.2"
   },
   "scripts": {
     "predeploy": "npm run build",
